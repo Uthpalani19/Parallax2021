@@ -1,0 +1,171 @@
+.contactform{
+    float: right;
+    height: 100%;
+    width: 50%;
+    padding-top: 5%;
+    padding-right: 200px;
+    padding-left: 50px;
+
+}
+
+.contactbox{
+    float: left;
+    height: 100%;
+    width: 50%;
+    padding-top: 5%;
+
+}
+
+.contact{
+    width:100%;
+}
+
+.rectangle {
+    margin-top: 175px;
+    margin-left: 150px;
+    width: 500px;
+    height: 250px;
+    border-radius:25px;
+    background: #C4C4C4;
+    z-index: 100;
+}
+
+/*Form*/
+
+.col1{
+    float: left;    
+}
+.col2{
+    float: right;   
+}
+.col3{
+    float: none;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+input[type=text], select {
+    width: 400px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+    margin-bottom: 45px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#msg{
+    padding-bottom: 150px;
+}
+
+input[type=submit] {
+    background-color:#FF8A00;
+    border-radius:10px;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:15px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #FF8A00;
+    padding:12px 37px;
+    width: 120px;
+    height: 50px;
+    margin-left: 130px;
+
+}
+
+.imglady{
+    width:300px;
+    height:550px;
+    position: fixed;
+    z-index: -1;
+}
+
+.cimg{
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-right: auto;
+    width:30px;
+    height:32px;
+}
+
+.socialimg{
+    width:50px;
+    height:55px;
+}
+
+input[type=submit]:hover {
+    background-color: darkkhaki;
+    color:black;
+}
+
+.heading{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.tagline{
+    text-align: center;
+    font-size: 20px;
+}
+
+.social-icons{
+    padding-left: 500px;
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+
+/* Mobile Responsive T*/
+
+@media screen and (max-width: 900px) {
+    .contactform{
+        height: 50%;
+        width: 100%;
+        padding-top: 5%;
+        padding-right: 20px;
+        padding-left: 5px;
+        margin-top: 10%;
+    }
+
+    input[type=text], select {
+        width: 300px;
+        padding-bottom: 30px;
+        padding-right: 10px;
+        margin-bottom: 45px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-sizing: border-box;
+        margin-left: -165%;
+    }
+
+    .imglady{
+        width:300px;
+        height:450px;
+        margin-left: 5%;
+        z-index: -1;
+    }
+
+    .rectangle {
+        margin-top: 120%;
+        margin-left:5%;
+        width: 350px;
+        height: 220px;
+        border-radius:15px;
+        background: #C4C4C4;
+        z-index: 100;
+    }
+
+    .social-icons{
+        margin-left: -100%;
+        display:flex;
+
+    }
+}
+
+

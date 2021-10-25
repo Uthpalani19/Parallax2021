@@ -1,0 +1,9 @@
+.row {
+    display: flex;
+    padding-top: 60px;
+  }
+  
+.column {
+    flex: 16.66%;
+    padding: 50px;
+  }

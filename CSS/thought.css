@@ -1,0 +1,108 @@
+.split {
+  top: 25%;
+    height: 50;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    padding-top: 20px;
+  }
+  
+  .rectangle {
+      margin-left: 550px;
+      border-radius:25px;
+      margin-top:35%;
+      background: #C4C4C4;
+      z-index: -2;
+      float :left;
+      width:30%;
+  }
+  
+  .para
+  {
+      margin-left:40%;
+      margin-top:10%;
+      margin-bottom:10%;
+      margin-right:10%
+  }
+  .art
+  {
+      margin-top:1%;
+      margin-left:1%;
+      position:absolute;
+  }
+  
+  .comma
+  {
+    margin-top:5%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .commab
+  {
+      margin-left:75%;
+  }
+  
+  .left {
+    left: 0;
+  }
+  
+  .right {
+    right: 0;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left-side;
+  }
+  
+  .center {
+    position: absolute;
+    display: block;
+    margin-top:30%;
+    margin-left: 47%;
+    margin-right: auto;
+    width: 7%;
+  }
+
+  @media screen and (max-width: 900px) {
+    .art
+    {
+        margin-top:-20%;
+        margin-left:15%;
+        margin-right: 15%;
+        position:absolute;
+        height: 400px; width: 280px;
+    }
+  .para
+  {
+      margin-left:10%;
+      margin-top:60%;
+      margin-right:25%
+  }
+
+  .center {
+    position: absolute;
+    display: block;
+    margin-top:120%;
+    margin-left: 47%;
+    margin-right: auto;
+    width: 12%;
+  }
+
+  .rectangle {
+    margin-left: 30%;
+    border-radius:25px;
+    margin-top:130%;
+    margin-right:60%;
+    background: #C4C4C4;
+    z-index: -2;
+    float :left;
+    width:50%;
+}
+
+}

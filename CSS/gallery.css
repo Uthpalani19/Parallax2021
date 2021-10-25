@@ -1,0 +1,54 @@
+.row {
+    display: flex;
+    padding-top: 50px;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  .animal{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 96px;
+    display: flex;
+
+    margin-top: -200px;
+    
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .pet{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 96px;
+    display: flex;
+    text-align: center;
+
+    margin-top: -475px;
+    
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .bird{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 96px;
+    display: flex;
+    text-align: right;
+
+    margin-top: -200px;
+    align-items: middle;
+    
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
